@@ -124,7 +124,7 @@ const SilenceButton: ChatBarButtonFactory = ({ isMainChat }) => {
 export default definePlugin({
     name: "SilenceCalls",
     description: "Adds a bell icon in the chat bar that lets you silence a call.",
-    authors: [Devs.yonn2222],
+    authors: [{ id: 821835831844012103, name: "YONN2222" }],
     reporterTestable: ReporterTestable.None,
 
     renderChatBarButton: SilenceButton
